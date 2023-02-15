@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+
+        <tittle>Flexbox Pratice</tittle>
+
+        <link rel="stylesheet" href="css/flexbox.css">
+
+    </head>
+
+
+<body>
+
+
+<h1>Flexbox</h1>
+
+
+<p>This will be a page where I pratice my css skills up. I will pratice flexbox on this web page.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+    </html>
