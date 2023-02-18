@@ -1,0 +1,66 @@
+body {
+    background-color: burlywood;
+}
+
+.header {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+    font-family: monospace;
+    background: papayawhip;
+}
+.logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    background: white;
+    padding: 4px 32px;
+}
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 8px;
+}
+
+a {
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+background: dodgerblue;
+border: 4px soild rgb(16, 16, 77);
+width: 400px;
+height: 300px;
+
+}
+
+.box {
+    background: palevioletred;
+    font-weight: bold;
+    text-align: center;
+    border: 6px soild maroon;
+    width: 80px;
+    height: 80px;
+}
