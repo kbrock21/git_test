@@ -1,119 +1,81 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
-
-
-
+html, body {
+    height: 100%;
+}
 
 body {
+    font-family: Roboto, san-serif;
     margin: 0;
-    background: #eee;
-    font-family: Besley, serif;
-}
-
-.hearder2 {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px;
-    background: white;
-    border-bottom: 1px solid #ddd;
-    box-shadow: 0 0 8px rgba(0,0,0,.1);
-}
-.profile-image {
-    background: rebeccapurple;
-    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
-}
-.logo1 {
-    color: rebeccapurple;
-    font-size: 32px;
-    font-weight: 900px;
-    font-style: italic;
-}
-
-button {
-    border: none;
-    border-radius: 8px;
-    background: rebeccapurple;
-    color: white;
-    padding: 8px 24px;
-}
-a {
-text-decoration: none;
-color: rebeccapurple;
-}
-
-ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 16px;
-    list-style-type: none;
-}
-
-.left, .right {
+    background: #aaa;
+    color: #333;
     display: flex;
     align-items: center;
-    gap: 16px
+    justify-content: center;
 }
-
-
-
-
-
-
 .header {
-    padding: 8px;
     display: flex;
     align-items: center;
-justify-content: space-between;
-    font-family: monospace;
-    background: papayawhip;
+    justify-content: space-between;
+    font-size:  18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+
 }
-.logo {
-    font-size: 48px;
-    font-weight: 900;
-    color: tomato;
-    background: white;
-    padding: 4px 32px;
+.text {
+    margin-bottom: 16px;
 }
-ul {
+
+.modal {
     display: flex;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    gap: 8px;
-}
-
-a {
-    font-size: 22px;
+    gap: 16px;
+    padding: 16px;
     background: white;
-    padding: 8px;
-    text-decoration: none;
+    width: 48px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+.icon {
+    
+    color: royalblue;
+    font-size: 26px;
+    font-weight: 700;
+    background: lavender;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-
-
-
-
-.container {
-display: flex;
-align-items: center;
-justify-content: center;
-background: dodgerblue;
-border: 4px soild rgb(16, 16, 77);
-width: 400px;
-height: 300px;
-
+.close-button {
+    background: #eee;
+    border-radius: 50%;
+    color: #888;
+    font-weight: 400;
+    font-size: 16px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+button.continue {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white; 
+}
+button.cancle {
+    background: rgb(207, 12, 12);
+    border: 1px solid #ddd;
+    color: rgb(146, 53, 41);
 }
 
-.box {
-    background: palevioletred;
-    font-weight: bold;
-    text-align: center;
-    border: 6px soild maroon;
-    width: 80px;
-    height: 80px;
+.close-button {
+    color: rgb(0, 0, 0);
+    background-color: royalblue;
 }
+
